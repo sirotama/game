@@ -1,0 +1,23 @@
+{
+  "name": "game",
+  "version": "0.0.1",
+  "description": "game",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node-dev src/server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirotama/game.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "sirotamaa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirotama/game/issues"
+  },
+  "homepage": "https://github.com/sirotama/game#readme"
+}
