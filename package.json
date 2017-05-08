@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/sirotama/game/issues"
   },
-  "homepage": "https://github.com/sirotama/game#readme"
+  "homepage": "https://github.com/sirotama/game#readme",
+  "dependencies": {
+    "koa-router": "^7.1.1",
+    "koa-swig": "^2.2.1"
+  }
 }
