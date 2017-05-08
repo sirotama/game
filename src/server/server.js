@@ -1,9 +1,11 @@
 const koa = require('koa');
 const app = new koa();
 
-// load a router
-require('./render')(app);
+// router
+const router = require('./router')()
 
-app.use(require('./router')(app));
+// regist to app
+app.use(router);
+require('./render')(app);
 
 app.listen(3000);
