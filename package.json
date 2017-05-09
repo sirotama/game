@@ -23,6 +23,7 @@
   "dependencies": {
     "koa": "^2.2.0",
     "koa-router": "^7.1.1",
+    "koa-static-server": "^1.1.0",
     "koa-swig": "^2.2.1"
   },
   "devDependencies": {

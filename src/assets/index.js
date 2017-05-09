@@ -39,6 +39,19 @@ var socket = io('http://localhost:3000');
         $.each(map, function(index, row){
             var counterCol = 0;
             $.each(row, function(index, cell){
+                if(index == 0){
+                    if(cell == 0){
+                        $(".map").append('<a x='+counterRow+' y='+counterCol+'><img src="./tile.png"></img></a>');
+                    } else if(cell == 1){
+                        $(".map").append('<a x='+counterRow+' y='+counterCol+'>■</img></a>');
+                    }
+                } else {
+                    if(cell == 0){
+                        $(".map").append('<a x='+counterRow+' y='+counterCol+'><img src="./tile.png"></img></a>');
+                    } else if(cell == 1){
+                        $(".map").append('<a x='+counterRow+' y='+counterCol+'>■</img></a>');
+                    }
+                }
                 counterCol++;
             });
             $(".map").append('</br>');
